@@ -1,0 +1,36 @@
+{
+	"name": "woo-product-grid/product-grid-layout",
+	"title": "Product grid layout",
+	"description": "A grid of products from the WooCommerce catalogue",
+	"category": "woo-product-grid",
+	"icon": "screenoptions",
+	"parent": [
+		"woo-product-grid/product-grid"
+	],
+	"supports": {
+		"html": false
+	},
+	"attributes" : {
+		"productsPerRow": {
+            "type": "number",
+            "default": 3
+        },
+		"productsToShow": {
+            "type": "number",
+            "default": 9
+        },
+		"productOffset": {
+            "type": "number",
+            "default": 0
+        },
+		"productOrder": {
+            "type": "string",
+            "default": "date"
+        },
+		"productOrderDirection": {
+            "type": "string",
+            "default": "DESC"
+        }
+	},
+	"textdomain": "woo-product-grid"
+}

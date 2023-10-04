@@ -1,0 +1,8 @@
+/vendor/
+/composer.lock
+/package-lock.json
+/.phpcs.xml
+/phpcs.xml
+/phpunit.xml
+/.phpunit.result.cache
+/node_modules/

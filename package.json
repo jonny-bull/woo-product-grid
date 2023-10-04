@@ -1,0 +1,28 @@
+{
+    "name": "woo-product-grid",
+    "version": "1.0.0",
+    "description": "Displays WooCommerce products in the Block Editor",
+    "main": "index.js",
+    "scripts": {
+        "check-engines": "wp-scripts check-engines",
+        "lint:css": "wp-scripts lint-style .",
+        "build:js": "wp-scripts build",
+        "fix:js": "wp-scripts lint-js . --fix",
+        "lint:js": "wp-scripts lint-js .",
+        "start:js": "wp-scripts start --hot"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jonny-bull/woo-product-grid.git"
+    },
+    "author": "Jonathan Bull",
+    "homepage": "https://github.com/jonny-bull/woo-product-grid",
+    "devDependencies": {
+        "@wordpress/env": "^8.8.0",
+        "@wordpress/scripts": "26.13.0"
+    },
+    "dependencies": {
+        "@wordpress/icons": "^9.33.0",
+        "classnames": "^2.3.2"
+    }
+}

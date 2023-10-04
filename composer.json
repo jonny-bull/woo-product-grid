@@ -1,0 +1,28 @@
+{
+    "name": "jonny-bull/woo-product-grid",
+    "description": "Displays WooCommerce products in the Block Editor",
+    "homepage": "https://github.com/jonny-bull/woo-product-grid",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Jonathan Bull",
+            "email": "jonathan.bull084@gmail.com",
+            "homepage": "https://github.com/jonny-bull"
+        }
+    ],
+    "type": "wordpress-plugin",
+    "require-dev": {
+        "automattic/vipwpcs": "^3.0",
+        "phpunit/phpunit": "^10.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "WooProductGrid\\": "src"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
