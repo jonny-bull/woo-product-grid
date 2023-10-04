@@ -1,0 +1,8 @@
+{
+	"name": "woo-product-grid/product-grid",
+	"title": "Product grid",
+	"description": "A single grid item displaying a product from the WooCommerce catalogue",
+	"category": "woo-product-grid",
+	"icon": "store",
+	"textdomain": "woo-product-grid"
+}
